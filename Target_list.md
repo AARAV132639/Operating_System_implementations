@@ -1,8 +1,8 @@
 # Operating Systems Implementation Lab (Resume-Grade)
 
-## Phase 1 — Process Management Foundations
+## Phase 1 — Process Management Foundations [skipped_for_time_being]
 
-1. **Implementation of process creation and management using fork(), exec(), wait(), and exit() system calls in C.**
+1. **Implementation of process creation and management using fork(), exec(), wait(), and exit() system calls in C.** 
 
 2. **Implementation of parent-child process communication and synchronization in C.**
 
