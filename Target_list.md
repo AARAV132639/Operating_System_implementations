@@ -16,9 +16,9 @@
 
 ## Phase 2 — Threads and Concurrency
 
-6. **Implementation of multithreading using POSIX threads (pthreads) in C/C++.**
+6. **Implementation of multithreading using POSIX threads (pthreads) in C/C++.** [done]
 
-7. **Implementation of thread synchronization using mutex locks and semaphores.**
+7. **Implementation of thread synchronization using mutex locks and semaphores.** [done]
 
 8. **Implementation of producer-consumer problem using synchronization primitives.**
 
