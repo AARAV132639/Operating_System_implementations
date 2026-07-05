@@ -20,9 +20,9 @@
 
 7. **Implementation of thread synchronization using mutex locks and semaphores.** [done]
 
-8. **Implementation of producer-consumer problem using synchronization primitives.**
+8. **Implementation of producer-consumer problem using synchronization primitives.** [done]
 
-9. **Implementation of readers-writers problem using semaphores and locks.**
+9. **Implementation of readers-writers problem using semaphores and locks.** [done]
 
 10. **Implementation of dining philosophers problem and deadlock prevention strategies.**
 
