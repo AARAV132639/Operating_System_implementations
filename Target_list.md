@@ -24,9 +24,9 @@
 
 9. **Implementation of readers-writers problem using semaphores and locks.** [done]
 
-10. **Implementation of dining philosophers problem and deadlock prevention strategies.**
+10. **Implementation of dining philosophers problem and deadlock prevention strategies.** [done]
 
-11. **Implementation of race condition simulation and synchronization benchmarking.**
+11. **Implementation of race condition simulation and synchronization benchmarking.** [done]
 
 ---
 
