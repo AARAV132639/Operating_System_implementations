@@ -5,7 +5,7 @@
 #include<semaphore.h>
 #include<time.h>
 
-
+//Shared variables
 #define THREADS 4
 #define ITERATIONS 1000000
 
@@ -15,13 +15,14 @@ pthread_mutex_t mutex;
 sem_t semaphore;
 
 
-
+//Race condition: Answer changes everytime because multiple threads update counter simulatneously
 void* race(void *arg)
 {
     for(int i=0; i<ITERATIONS;i++) counter++;
     return NULL;
 }
 
+//Mutex version
 void* mutex_inc(void*arg)
 {
     for(int i=0; i<ITERATIONS; i++)
@@ -33,6 +34,7 @@ void* mutex_inc(void*arg)
     return NULL;
 }
 
+//Semphore version
 void *semaphore_inc(void*arg)
 {
     for(int i=0;i<ITERATIONS;i++)
@@ -60,7 +62,7 @@ void benchmark(void* (*func)(void*), const char*name)
 
     clock_gettime(CLOCK_MONOTONIC, &end);
 
-    double time = (end.tv_sec-start.tv_sec) + (end.tv_nsec-start.tv_nsec)/1e9;
+    double time = (end.tv_sec-start.tv_sec) + (end.tv_nsec-start.tv_nsec)/1e9; //Elapsed time
 
     printf("%s\n", name);
     printf("Counter: %lld\n", counter);
@@ -84,3 +86,31 @@ int main()
 
     return 0;
 }
+
+/*
+
+## Insights:
+
+[Q] Why is the Race Condition faster?
+
+- Because it performs only: counter++
+
+- There is no lock acquistion
+
+- No waiting an no syncronization overhead.
+
+- The downside is that the result is incorrect
+
+[Q] Why is Mutex slower?
+
+- Every increment requires: acquire mutex, increment, release mutex
+
+- These operations add overhead but ensure correctnes
+
+[Q] Why is semaphore slightly slower?
+
+- Semaphore maintains a count and may involve additional book keeping compated to a mutex used solely for mutual exclusion
+
+- For protecting a single critical section, a mutex is generally the preferred synchronization primitive
+
+*/
