@@ -32,7 +32,7 @@
 
 ## Phase 3 — Deadlocks and Resource Management
 
-12. **Implementation of deadlock detection algorithms using resource allocation graphs.**
+12. **Implementation of deadlock detection algorithms using resource allocation graphs.** [done]
 
 13. **Implementation of Banker’s Algorithm for deadlock avoidance.**
 
