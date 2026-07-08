@@ -116,7 +116,7 @@
 
 ---
 
-## Phase 9 — Real Resume Projects
+## Phase 9 —  Projects
 
 43. **Implementation of mini Linux shell with piping, redirection, and job control.**
 
@@ -134,6 +134,6 @@
 
 ---
 
-# Final Resume Project
+# Final Project
 
 > **Build implementation-level mastery of operating systems concepts including processes, concurrency, memory management, file systems, synchronization, IPC, and Linux systems programming.**
