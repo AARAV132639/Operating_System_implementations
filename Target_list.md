@@ -34,9 +34,9 @@
 
 12. **Implementation of deadlock detection algorithms using resource allocation graphs.** [done]
 
-13. **Implementation of Banker’s Algorithm for deadlock avoidance.**
+13. **Implementation of Banker’s Algorithm for deadlock avoidance.**[done]
 
-14. **Implementation of deadlock recovery and prevention simulation workflows.**
+14. **Implementation of deadlock recovery and prevention simulation workflows.** [done]
 
 15. **Implementation of resource allocation and process coordination experiments.**
 
