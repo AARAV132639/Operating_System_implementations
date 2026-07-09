@@ -38,7 +38,7 @@
 
 14. **Implementation of deadlock recovery and prevention simulation workflows.** [done]
 
-15. **Implementation of resource allocation and process coordination experiments.**
+15. **Implementation of resource allocation and process coordination experiments.** [done]
 
 ---
 
