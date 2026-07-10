@@ -1,12 +1,12 @@
-# Read Me
+# READ ME
 
-##  Vision:
+## Vision:
 
 Make an ever growing personal library of concepts regarding Operating Systems.
 
 ## Learning Objectives
 
-- Explore and learning C and C++ applications more. 
+- Explore and learn C and C++ applications more. 
 
 - Learn and understand concepts of Operating System from application perspective.
 
@@ -24,7 +24,7 @@ Make an ever growing personal library of concepts regarding Operating Systems.
 
 ### Index.md
 
-1. Contains the list of implementations peformed
+1. Contains the list of implementations performed
 
 2. Currently starts from 6th because author over-engineered first 5 implementations
 
@@ -34,7 +34,7 @@ Make an ever growing personal library of concepts regarding Operating Systems.
 
 1. Contains implementations as per Index.md
 
-2. Each implemnentation has two files : code file and insights file
+2. Each implementation has two files : code file and insights file
 
 3. Insights.md of each implementation contains notes, objectives and brief about real life application of that concept
 
@@ -42,9 +42,9 @@ Make an ever growing personal library of concepts regarding Operating Systems.
 
 - Author is halting the progress as of 10th July 2026. 
 
-- Reason: Concepts beyond Resource management like Memory Management, Disc Scheduling, File Management etc are still not internalized. 
+- Reason: Concepts beyond Resource management like Memory Management, Disk Scheduling, File Management etc are still not internalized. 
 
-- Further intented implementations deserve more time and attention as they require depth.
+- Further intended implementations deserve more time and attention as they require depth.
 
 - Author will try to keep this library ever growing and document the learning to fullest.
 
